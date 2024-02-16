@@ -1,0 +1,131 @@
+/* .navbar {
+    display: flex;
+}
+
+.navbar div{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left {
+    flex: 1;
+
+}
+
+.navbar-right {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.navbar-center {
+    flex: 2;
+    justify-content: center;
+
+}
+
+.navbar-left *{
+    margin: 0 0.2em;
+}
+
+.navbar-center *{
+    margin: 0 0.5em;
+}
+
+.navbar-right *{
+    margin: 0 0.5em;
+}
+
+
+.navbar-logo {
+    width: 27px;
+    height: 27px;
+    margin: 0;
+    padding: 0 0.9em;
+}
+
+.navbar * button {
+    border: none;
+}
+
+.navbar-left-input {
+    border: none;
+    padding: 5px;
+} */
+
+/* -------------------- */
+
+.navbar {
+    display: flex;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left {
+    flex: 1;
+}
+
+.navbar-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* This can help center items vertically within .navbar-right */
+}
+
+.navbar-right button {
+    margin: 0 0.5em;
+    border: none;
+}
+
+.navbar-center {
+    flex: 2;
+    justify-content: center;
+}
+
+.navbar-left * {
+    margin: 0 0.2em;
+}
+
+.navbar-center * {
+    margin: 0 0.5em;
+}
+
+.navbar-right * {
+    margin: 0 0.5em;
+}
+
+.navbar-logo {
+    width: 27px;
+    height: 27px;
+    margin: 0;
+    padding: 0 0.9em;
+}
+
+.navbar * button {
+    border: none;
+}
+
+.navbar div div button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.navbar-left-input {
+    border: none;
+    padding: 5px;
+}
+/* 
+.menu-logout-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    border-radius: 1em;
+} */
+

@@ -1,0 +1,20 @@
+
+.mentorship-activities {
+    border-top: solid lightgrey 2px;
+  }
+
+  .mentorship-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mentor-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mentee-container {
+    display: flex;
+    flex-direction: column;
+
+  }
